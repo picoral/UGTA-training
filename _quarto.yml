@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "CS UGTA Training"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - preservice.qmd
+  sidebar:
+    style: "docked"
+    background: primary
+    search: true
+    contents:
+      - preservice.qmd
+
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    toc: true
+
+editor: source
+

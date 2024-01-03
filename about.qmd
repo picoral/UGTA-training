@@ -1,0 +1,7 @@
+---
+title: "About"
+---
+
+The training materials in this website have been put together based the following:
+
+Felix Muzny and Michael D. Shah. 2023. Teaching Assistant Training: An Adjustable Curriculum for Computing Disciplines. In Proceedings of the 54th ACM Technical Symposium on Computing Science Education V. 1 (SIGCSE 2023), March 15–18, 2023, Toronto, ON, Canada. ACM, New York, NY, USA, 7 pages. https://doi.org/10.1145/3545945.3569866

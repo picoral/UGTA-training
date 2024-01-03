@@ -1,0 +1,185 @@
+---
+title: "Preservice Training"
+format: revealjs
+slide-number: true
+include-in-header:
+  text: <script type="text/javascript" src="scenarios.js"></script>
+---
+
+# Ice-breaker
+
+Share:
+
+-   Name
+-   Pronouns
+-   Course you are TAing for
+
+## Would you rather?
+
+::: columns
+::: {.column width="45%"}
+1.  have class for 12 hours on one day a week
+
+2.  have breakfast for every meal of the day
+
+3.  have class at 8am every day
+
+4.  spend your day reading
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+1.  have class for 2hrs a day 6 days a week
+
+2.  not drink any caffeine ever again
+
+3.  have class at 8pm every day
+
+4.  spend your day hiking
+:::
+:::
+
+How would you spend your day, if you could choose anything?
+
+## Reflection
+
+What are ice-breakers for?
+
+## Reflection
+
+Why do we have to learn to talk to people we don't know?
+
+## Discuss in small groups
+
+Think about the answer individually first, then share with your group:
+
+*  What does it mean to be a good TA?
+
+## Discuss in small groups
+
+From the answers shared (Q: `What does it mean to be a good TA?`), did your group think of all these three categories:
+
+1.  What does it mean to be **a good TA to you**?
+2.  What does it mean to be **a good TA to students**?
+3.  What does it mean to be **a good TA to the instructor you are working for**?
+
+Using the color post-its, write at least two answers in each category.
+
+## Reflection
+
+1.  Why allow participants to think individually first?
+2.  Why have them share in small groups second?
+3.  Why have groups share with everyone as the last step?
+
+## What skills are needed for TAing?
+
+1. Technical knowledge
+2. Pedagogical practice and experience
+3. Interpersonal communication
+
+Which of these are you most confidence with?
+
+Which of these you think you should develop further?
+
+## Scenarios
+
+Come up with 3 reasonable reactions to your group's scenario.
+
+The goal is not to come up with "the right response", but to generate possible reactions to the given scenarios that are reasonable and respectful of all parties involved. 
+
+"reasonable reaction" means that it would:
+
+* support the student(s) involved AND
+* be something you would be comfortable doing
+
+## Scenarios
+
+Come up with 3 reasonable reactions to your group's scenario.
+
+ <p> Select your group number:
+        <select id="select1" onchange="getOption()">
+            <option value=""></option>
+            <option value="A student comes to office hours and says that they *just don't get* the homework and that they don't know where to start.">1</option>
+            <option value="A student is in office hours working on their homework. You notice that they are just staring at their work and doing nothing when you are not actively working with them individually.">2</option>
+            <option value="A student is having difficulty understanding iteration. You explain using an example similar to one the professor used in lecture. After your explanation, the student seems more confused.">3</option>
+            <option value="A student comes to office hours and shows you their work so far. They don't seem to have any specific questions.">4</option>
+        </select>
+    </p>
+
+
+<p> Your group's scenario is:
+        <span class="output"></span>
+    </p>
+
+## Scenarios
+
+What phrases would you be comfortable telling the student in the scenario?
+
+## Student Experiences & Backgrounds
+
+What behaviors might make some students appear to be better learners when you are interacting with them as a TA?
+
+## Student Experiences & Backgrounds
+
+Which of these behaviors do you tend to exhibit in office hours and lecture?
+
+How many of these behaviors are learned from culture (background/experience/personality)?
+
+## Learner Profiles
+
+Think of 3 specific kinds of support that these student might benefit from.
+
+The goal here is for you to consider supports that are not directly related to course content (e.g., language support, computer support) students may need without generalizing any one group. 
+
+1. Read their profile
+2. This student is in your office hours. What sorts of problems might they be asking about?
+  
+## X
+
+X is a first year student from Oregon.  They took computer science during high school and passed the AP test, which was in Java. They are currently taking CSC 110, an introductory course in python. They were not top of their class, but they were in the top 20% at their high school. They frequently turn in homework that uses concepts not covered during lecture.
+
+## Y
+
+Y is a first-year, international student. They read English very well but sometimes struggle to understand when their teachers speak quickly or mumble. The time difference makes it difficult to talk to their family back home. Z did not attend an international high school, nor was their high school a bilingual English one. They are taking CS 120 currently, and the first exam is approaching. Z has no family connections nearby.
+
+
+## Scenarios
+
+Come up with 3 reasonable reactions to your group's scenario.
+
+The goal is not to come up with "the right response", but to generate possible reactions to the given scenarios that are reasonable and respectful of all parties involved. 
+
+"reasonable reaction" means that it would:
+
+* support the student(s) involved AND
+* be something you would be comfortable doing
+
+## Scenarios
+
+Come up with 3 reasonable reactions each scenario.
+
+ <p> Select a scenario:
+        <select id="select2" onchange="getOptionTwo()">
+            <option value=""></option>
+            <option value="A group of students is working together. You notice that one student, R, is doing most of the work. When you ask the group why only one student is doing the work, they respond *R just gets it*.">1</option>
+            <option value="A student is in your office hours and says that they understand the examples from lecture but is unable to do the homework. Upon asking about their confusion, the student says *I tried using the loop from lecture and it isn't working*.">2</option>
+            <option value="You are in office hours and you notice that a fellow TA from your class has been ignoring a student, Q. When you ask if you can help with that student, your fellow TA says *oh, they aren't trying and they just don't get it so it's more useful for me to help the other students*.">3</option>
+            <option value="A student is struggling in the class that you are TAing for. They reach out to you and tell you that they can't make your regularly scheduled office hours, requesting instead to meet at a different time.">4</option>
+            <option value="Students have gotten their midterm exams back. You notice two friends commiserating over their below- average grades by saying that *we just aren't programmers*.">5</option>
+            <option value="Students have gotten their midterm exams back. You have a student who has the highest grade in the class. This student is complaining to the students around them about the one point that they missed and how the test was unfair.">6</option>
+            <option value="In office hours, you ask a student, X, a question to explain the strategy that they are approaching the problem with. Another student jumps in before X can answer, saying *well a better strategy would be to...*">7</option>
+            <option value="You're in office hours going over the homework set (which focuses on recursion). A student, Y, asks a question about the basics of how to call a function. While you are answering the question, another student, Z, comments that *this was material from three weeks ago, this isn't what these office hours are for*.">8</option>
+        </select>
+    </p>
+
+
+<p> Your group's scenario is:
+        <span class="output2"></span>
+    </p>
+    
+## Reflection
+
+What do you hope to gain out of being a TA?
