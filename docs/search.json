@@ -158,7 +158,7 @@
     "href": "preservice.html#questions",
     "title": "Preservice Training",
     "section": "Questions",
-    "text": "Questions\nWe will replicate the experience of dealing with unfamiliar code (like trying to understand what students wrote).\nWrite down as many questions as you can about the following code snippet.\n\n# Compute confidence interval around mean using normal approximation\nmean_ci &lt;- function(x, conf = 0.95) {\n  se &lt;- sd(x) / sqrt(length(x))\n  alpha &lt;- 1 - conf\n  mean(x) + se * qnorm(c(alpha / 2, 1 - alpha / 2))\n}\n\nx &lt;- runif(100)\nmean_ci(x)\n\n[1] 0.4661571 0.5855062"
+    "text": "Questions\nWe will replicate the experience of dealing with unfamiliar code (like trying to understand what students wrote).\nWrite down as many questions as you can about the following code snippet.\n\nmean_ci &lt;- function(x, conf = 0.95) {\n  se &lt;- sd(x) / sqrt(length(x))\n  alpha &lt;- 1 - conf\n  mean(x) + se * qnorm(c(alpha / 2, 1 - alpha / 2))\n}\n\nx &lt;- runif(100)\nmean_ci(x)\n\n[1] 0.4553771 0.5695684"
   },
   {
     "objectID": "preservice.html#open-vs.-close-questions",

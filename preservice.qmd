@@ -136,7 +136,6 @@ Write down as many questions as you can about the following code snippet.
 
 ```{r}
 #| echo: true
-# Compute confidence interval around mean using normal approximation
 mean_ci <- function(x, conf = 0.95) {
   se <- sd(x) / sqrt(length(x))
   alpha <- 1 - conf
