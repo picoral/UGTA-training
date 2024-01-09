@@ -80,7 +80,7 @@ Using the color post-its, write at least two answers in each category.
 2. Pedagogical practice and experience
 3. Interpersonal communication
 
-Which of these are you most confidence with?
+Which of these are you most confident with?
 
 Which of these you think you should develop further?
 
@@ -117,6 +117,51 @@ Come up with 3 reasonable reactions to your group's scenario.
 ## Scenarios
 
 What phrases would you be comfortable telling the student in the scenario?
+
+# Day 2
+
+## Review of previous day
+
+Discuss in your groups:
+
+1. What are ice-breakers good for?
+1. What are the three types of skills needed for teaching/TAing?
+1. What are some questions/phrases you can use to help students during in-class activities and office hours?
+
+## Questions
+
+We will replicate the experience of dealing with unfamiliar code (like trying to understand what students wrote).
+
+Write down as many questions as you can about the following code snippet.
+
+```{r}
+#| echo: true
+# Compute confidence interval around mean using normal approximation
+mean_ci <- function(x, conf = 0.95) {
+  se <- sd(x) / sqrt(length(x))
+  alpha <- 1 - conf
+  mean(x) + se * qnorm(c(alpha / 2, 1 - alpha / 2))
+}
+
+x <- runif(100)
+mean_ci(x)
+```
+
+## Open vs. Close questions
+
+For each question your group wrote, categorize it as "open" or "closed". 
+
+An "open" question is a question that leads to further discussion. 
+
+A "closed" question is one that has a single, fixed answer.
+
+## Asking questions
+
+Come up with a question that:
+
+1. helps you understand the student code 
+1. generates discussion
+1. helps the student understand their code
 
 ## Student Experiences & Backgrounds
 

@@ -46,7 +46,7 @@
     "href": "preservice.html#what-skills-are-needed-for-taing",
     "title": "Preservice Training",
     "section": "What skills are needed for TAing?",
-    "text": "What skills are needed for TAing?\n\nTechnical knowledge\nPedagogical practice and experience\nInterpersonal communication\n\nWhich of these are you most confidence with?\nWhich of these you think you should develop further?"
+    "text": "What skills are needed for TAing?\n\nTechnical knowledge\nPedagogical practice and experience\nInterpersonal communication\n\nWhich of these are you most confident with?\nWhich of these you think you should develop further?"
   },
   {
     "objectID": "preservice.html#scenarios",
@@ -138,5 +138,40 @@
     "title": "About",
     "section": "",
     "text": "The training materials in this website have been put together based the following:\nFelix Muzny and Michael D. Shah. 2023. Teaching Assistant Training: An Adjustable Curriculum for Computing Disciplines. In Proceedings of the 54th ACM Technical Symposium on Computing Science Education V. 1 (SIGCSE 2023), March 15–18, 2023, Toronto, ON, Canada. ACM, New York, NY, USA, 7 pages. https://doi.org/10.1145/3545945.3569866"
+  },
+  {
+    "objectID": "preservice.html#reviewing-of-previous-day",
+    "href": "preservice.html#reviewing-of-previous-day",
+    "title": "Preservice Training",
+    "section": "Reviewing of previous day",
+    "text": "Reviewing of previous day\nDiscuss in your groups:\n\nWhat are ice-breakers good for?\nWhat are the three types of skills needed for teaching/TAing?\nWhat are some questions/phrases you can use to help students during in-class activities and office hours?"
+  },
+  {
+    "objectID": "preservice.html#review-of-previous-day",
+    "href": "preservice.html#review-of-previous-day",
+    "title": "Preservice Training",
+    "section": "Review of previous day",
+    "text": "Review of previous day\nDiscuss in your groups:\n\nWhat are ice-breakers good for?\nWhat are the three types of skills needed for teaching/TAing?\nWhat are some questions/phrases you can use to help students during in-class activities and office hours?"
+  },
+  {
+    "objectID": "preservice.html#questions",
+    "href": "preservice.html#questions",
+    "title": "Preservice Training",
+    "section": "Questions",
+    "text": "Questions\nWe will replicate the experience of dealing with unfamiliar code (like trying to understand what students wrote).\nWrite down as many questions as you can about the following code snippet.\n\n# Compute confidence interval around mean using normal approximation\nmean_ci &lt;- function(x, conf = 0.95) {\n  se &lt;- sd(x) / sqrt(length(x))\n  alpha &lt;- 1 - conf\n  mean(x) + se * qnorm(c(alpha / 2, 1 - alpha / 2))\n}\n\nx &lt;- runif(100)\nmean_ci(x)\n\n[1] 0.4661571 0.5855062"
+  },
+  {
+    "objectID": "preservice.html#open-vs.-close-questions",
+    "href": "preservice.html#open-vs.-close-questions",
+    "title": "Preservice Training",
+    "section": "Open vs. Close questions",
+    "text": "Open vs. Close questions\nFor each question your group wrote, categorize it as “open” or “closed”.\nAn “open” question is a question that leads to further discussion.\nA “closed” question is one that has a single, fixed answer."
+  },
+  {
+    "objectID": "preservice.html#asking-questions",
+    "href": "preservice.html#asking-questions",
+    "title": "Preservice Training",
+    "section": "Asking questions",
+    "text": "Asking questions\nCome up with a question that:\n\nhelps you understand the student code\ngenerates discussion\nhelps the student understand their code"
   }
 ]
