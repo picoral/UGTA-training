@@ -158,7 +158,7 @@
     "href": "preservice.html#questions",
     "title": "Preservice Training",
     "section": "Questions",
-    "text": "Questions\nWe will replicate the experience of dealing with unfamiliar code (like trying to understand what students wrote).\nWrite down as many questions as you can about the following code snippet.\n\nmean_ci &lt;- function(x, conf = 0.95) {\n  se &lt;- sd(x) / sqrt(length(x))\n  alpha &lt;- 1 - conf\n  mean(x) + se * qnorm(c(alpha / 2, 1 - alpha / 2))\n}\n\nx &lt;- runif(100)\nmean_ci(x)\n\n[1] 0.4392119 0.5567158"
+    "text": "Questions\nWe will replicate the experience of dealing with unfamiliar code (like trying to understand what students wrote).\nWrite down as many questions as you can about the following code snippet.\n\nmean_ci &lt;- function(x, conf = 0.95) {\n  se &lt;- sd(x) / sqrt(length(x))\n  alpha &lt;- 1 - conf\n  mean(x) + se * qnorm(c(alpha / 2, 1 - alpha / 2))\n}\n\nx &lt;- runif(100)\nmean_ci(x)\n\n[1] 0.4559937 0.5663791"
   },
   {
     "objectID": "preservice.html#open-vs.-close-questions",
@@ -173,5 +173,12 @@
     "title": "Preservice Training",
     "section": "Asking questions",
     "text": "Asking questions\nCome up with questions that:\n\nhelps you understand the student code\ngenerates discussion\nhelps the student understand their code"
+  },
+  {
+    "objectID": "preservice.html#survey",
+    "href": "preservice.html#survey",
+    "title": "Preservice Training",
+    "section": "Survey",
+    "text": "Survey\nPlease fill our survey"
   }
 ]

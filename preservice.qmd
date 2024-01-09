@@ -224,6 +224,10 @@ Come up with 3 reasonable reactions each scenario.
         <span class="output2"></span>
     </p>
     
+## Survey
+
+Please [fill our survey](https://bit.ly/ua-tas-begin)
+    
 ## Reflection
 
 What do you hope to gain out of being a TA?
