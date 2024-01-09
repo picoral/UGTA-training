@@ -156,7 +156,7 @@ A "closed" question is one that has a single, fixed answer.
 
 ## Asking questions
 
-Come up with a question that:
+Come up with questions that:
 
 1. helps you understand the student code 
 1. generates discussion
