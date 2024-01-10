@@ -187,7 +187,7 @@ X is a first year student from Oregon.  They took computer science during high s
 
 ## Y
 
-Y is a first-year, international student. They read English very well but sometimes struggle to understand when their teachers speak quickly or mumble. The time difference makes it difficult to talk to their family back home. Z did not attend an international high school, nor was their high school a bilingual English one. They are taking CS 120 currently, and the first exam is approaching. Z has no family connections nearby.
+Y is a first-year, international student. They read English very well but sometimes struggle to understand when their teachers speak quickly or mumble. The time difference makes it difficult to talk to their family back home. Y did not attend an international high school, nor was their high school a bilingual English one. They are taking CS 120 currently, and the first exam is approaching. Y has no family connections nearby.
 
 
 ## Scenarios
