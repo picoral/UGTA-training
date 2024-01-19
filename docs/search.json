@@ -180,5 +180,61 @@
     "title": "Preservice Training",
     "section": "Survey",
     "text": "Survey\nPlease fill our survey"
+  },
+  {
+    "objectID": "inservice.html#group-discussion",
+    "href": "inservice.html#group-discussion",
+    "title": "Inservice Training",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nWhat is one thing that you have done well in your job as a TA so far?\nWhen did you have to think hard in your job as a TA?\nWhat have you learned so far working as a TA?\nWhat is one thing you’d like to work on over the remainder of the term?"
+  },
+  {
+    "objectID": "inservice.html#teaching-difficult-concepts",
+    "href": "inservice.html#teaching-difficult-concepts",
+    "title": "Inservice Training",
+    "section": "Teaching Difficult Concepts",
+    "text": "Teaching Difficult Concepts\nIndividually (write your answer down):\nWhat has been the most difficult topic that students have encountered so far?\nOR\nWhat do you think will be the most difficult topic presented in their course?"
+  },
+  {
+    "objectID": "inservice.html#group-discussion-1",
+    "href": "inservice.html#group-discussion-1",
+    "title": "Inservice Training",
+    "section": "Group Discussion",
+    "text": "Group Discussion\nGo around and find people with a similar concept than yours (it might not overlap perfectly)\nOnce you’ve found your group:\n\nChoose which concept you will work on\nDevelop a short lesson on the topic – the lesson should include one small example problem"
+  },
+  {
+    "objectID": "inservice.html#share-feedback",
+    "href": "inservice.html#share-feedback",
+    "title": "Inservice Training",
+    "section": "Share + Feedback",
+    "text": "Share + Feedback\nShare your mini-lesson and example with the large group\nFeedback, write down (email me your feedback at adrianaps@arizona.edu):\n\none thing that the group did well\none thing that they could improve"
+  },
+  {
+    "objectID": "inservice.html#group-discussion-2",
+    "href": "inservice.html#group-discussion-2",
+    "title": "Inservice Training",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nWhat is one difficult/challenging scenario that you have encountered in your job as a TA so far?\nHow do you think that the stereotypes that a student may have heard about computer science/programming might impact how they approach the materials in the classroom?\nIn your job as a TA, have you seen these stereotypes/myths play out? How? Where?"
+  },
+  {
+    "objectID": "inservice.html#asking-questions",
+    "href": "inservice.html#asking-questions",
+    "title": "Inservice Training",
+    "section": "Asking Questions",
+    "text": "Asking Questions\nWhat questions can you ask the student to help them understand what the problem is with their code?\n\ndef max_consec_sum(numbers, n):\n  sum = 0\n  new_sum = 0\n  for i in range(len(numbers)):\n    if i &lt; n:\n      sum += numbers[i]\n    elif i+n &lt; len(numbers):\n      new_sum = sum - numbers[i-1] + numbers[i+n]\n    if new_sum &gt; sum:\n      sum = new_sum\n  return sum\n\nprint( max_consec_sum([10,2,-3,4,3],4) ) # 13\nprint( max_consec_sum([10,2,-3,4,3],1) ) # 10\nprint( max_consec_sum([10,2,-3,4,3],5)) # 16\n\n13\n18\n16"
+  },
+  {
+    "objectID": "inservice.html#survey",
+    "href": "inservice.html#survey",
+    "title": "Inservice Training",
+    "section": "Survey",
+    "text": "Survey\nPlease fill our survey"
+  },
+  {
+    "objectID": "inservice.html#scenario",
+    "href": "inservice.html#scenario",
+    "title": "Inservice Training",
+    "section": "Scenario",
+    "text": "Scenario\nA student comes to your office hours with a solution to the following problem:\nwrite a function that returns the maximum sum of n consecutive numbers in a list\nThe student says that their solution works only sometimes."
   }
 ]

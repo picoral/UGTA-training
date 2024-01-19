@@ -1,0 +1,85 @@
+---
+title: "Inservice Training"
+format: revealjs
+slide-number: true
+include-in-header:
+  text: <script type="text/javascript" src="scenarios.js"></script>
+---
+
+## Group Discussion
+
+1. What is one thing that you have done well in your job as a TA so far?
+2. When did you have to think hard in your job as a TA?
+4. What have you learned so far working as a TA?
+5. What is one thing you'd like to work on over the remainder of the term?
+
+## Teaching Difficult Concepts
+
+Individually (write your answer down):
+
+What has been the most difficult topic that students have encountered so far?
+
+OR
+
+What do you think will be the most difficult topic presented in their course? 
+
+## Group Discussion
+
+Go around and find people with a similar concept than yours (it might not overlap perfectly)
+
+Once you've found your group:
+
+1. Choose which concept you will work on
+2. Develop a short lesson on the topic -- the lesson should include one small example problem
+
+## Share + Feedback
+
+Share your mini-lesson and example with the large group
+
+Feedback, write down (email me your feedback at adrianaps\@arizona.edu):
+
+1. one thing that the group did well 
+2. one thing that they could improve
+
+## Group Discussion
+
+1. What is one difficult/challenging scenario that you have encountered in your job as a TA so far?
+2. How do you think that the stereotypes that a student may have heard about computer science/programming might impact how they approach the materials in the classroom?
+3. In your job as a TA, have you seen these stereotypes/myths play out? How? Where?
+
+## Scenario
+
+A student comes to your office hours with a solution to the following problem: 
+
+`write a function that returns the maximum sum of n consecutive numbers in a list`
+
+The student says that their solution works only sometimes.
+
+## Asking Questions
+
+What questions can you ask the student to help them understand what the problem is with their code?
+
+```{python}
+#| eval: true
+#| echo: true
+def max_consec_sum(numbers, n):
+  sum = 0
+  new_sum = 0
+  for i in range(len(numbers)):
+    if i < n:
+      sum += numbers[i]
+    elif i+n < len(numbers):
+      new_sum = sum - numbers[i-1] + numbers[i+n]
+    if new_sum > sum:
+      sum = new_sum
+  return sum
+
+print( max_consec_sum([10,2,-3,4,3],4) ) # 13
+print( max_consec_sum([10,2,-3,4,3],1) ) # 10
+print( max_consec_sum([10,2,-3,4,3],5)) # 16
+```
+
+
+## Survey
+
+Please [fill our survey](https://bit.ly/ua-tas-begin)
