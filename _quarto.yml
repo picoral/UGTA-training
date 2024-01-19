@@ -10,12 +10,14 @@ website:
         text: Home
       - about.qmd
       - preservice.qmd
+      - inservice.qmd
   sidebar:
     style: "docked"
     background: primary
     search: true
     contents:
       - preservice.qmd
+      - inservice.qmd
 
 format:
   html:
