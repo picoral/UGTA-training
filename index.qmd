@@ -2,14 +2,20 @@
 title: "CS UGTA Training"
 ---
 
-Training dates:
+Training dates (2024):
 
-* Preservice (meaning before the semester starts):
+* Preservice (meaning before the semester starts) Spring 2024:
   * January 8 (Monday), 1pm to 3pm in GS 228
   * January 9 (Tuesday), 1pm to 3pm in GS 228
   
-* Inservice (meaning after you've had some TA experience)
+* Preservice (meaning before the semester starts) Fall 2024:
+  * August 23 (Friday), 2pm to 4pm in GS 228
+  
+* Inservice (meaning after you've had some TA experience) Spring 2024:
   * January 20 (Saturday), 1pm to 3pm in GS 228
+  
+* Inservice (meaning after you've had some TA experience) Fall 2024:
+  * September 7 (Saturday), 2pm to 4pm in GS 228
   
   
 If you have any questions please contact Adriana Picoral at adrianaps\@arizona.edu
